@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/quest.unity
+  isLoaded: 1
+  isActive: 1

@@ -1,0 +1,31 @@
+english,japanese,headcount,time,difficulty,lucky,communication,card,forBeginner
+Troika,トロイカ,many,short,easy,medium,individual,no,yes
+DeepSeaAdventure,海底探検,many,medium,easy,luck,individual,no,yes
+HagetakaNoEjiki,ハゲタカ,many,short,easy,medium,medium,yes,yes
+GhostBlitz,おばけキャッチ,many,short,easy,skill,individual,no,yes
+WardBasket,ワードバスケット,many,short,normal,medium,medium,yes,yes
+Dobble,ドブル,many,short,easy,skill,individual,yes,yes
+Blocks,ブロックス,aFew,medium,easy,skill,individual,no,yes
+Coloretto,コロレット,many,medium,normal,medium,medium,yes,yes
+Coyote,コヨーテ,many,medium,easy,skill,medium,yes,yes
+Ojamamono,お邪魔者,many,medium,normal,medium,communicative,yes,yes
+NineBreak,ナインブレイク,aFew,short,easy,skill,individual,no,yes
+Coup,クー,many,short,normal,medium,medium,yes,no
+LoveLetter,ラブレター,aFew,short,normal,medium,medium,yes,yes
+NewLostLegacy,ニューロストレガシー,aFew,short,normal,medium,medium,yes,no
+TurfWar,TURF WAR,aFew,short,normal,skill,individual,yes,no
+NotMyFault,NOT MY FAULT,many,short,normal,medium,communicative,yes,no
+Algo,アルゴ,aFew,short,normal,skill,medium,no,yes
+Domemo,ドメモ,many,short,normal,medium,medium,no,yes
+MahoujinNoRuleKari,魔法陣のルール（仮）,many,short,hard,luck,communicative,no,no
+Carcassonne,カルカソンヌ,many,long,normal,medium,individual,no,no
+KakerlakenPoker,ごきぶりポーカー,many,short,easy,skill,communicative,yes,yes
+PenguinParty,ペンギンパーティー,many,short,easy,medium,medium,yes,yes
+Catan,カタン,aFew,long,hard,luck,communicative,no,no
+DungeonOfMandom,ダンジョンオブマンダム,aFew,short,normal,skill,communicative,yes,no
+HanninHaOdoru,犯人は踊る,many,short,easy,skill,medium,yes,yes
+Testplay,テストプレイ,many,short,normal,luck,communicative,yes,yes
+Geister,ガイスター,aFew,short,normal,skill,individual,no,yes
+OneShotKill,ワンショットキル,many,short,normal,medium,communicative,yes,no
+OneNightJinrou,ワンナイト人狼,many,short,normal,medium,communicative,yes,yes
+Pralaya,プララーヤ,many,medium,normal,medium,individual,yes,no

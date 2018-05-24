@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9569ec4b0ac7344095d7f1cd9b6bd7e, type: 3}
+  m_Name: BoardGameDataForUnity
+  m_EditorClassIdentifier: 
+  sheets:
+  - name: Sheet1
+    list:
+    - english: Troika
+      japanese: "\u30C8\u30ED\u30A4\u30AB"
+      headcount: many
+      time: short
+      difficulty: easy
+      lucky: medium
+      communication: individual
+      card: no
+      forBeginner: yes
+    - english: DeepSeaAdventure
+      japanese: "\u6D77\u5E95\u63A2\u691C"
+      headcount: many
+      time: medium
+      difficulty: easy
+      lucky: luck
+      communication: individual
+      card: no
+      forBeginner: yes
+    - english: HagetakaNoEjiki
+      japanese: "\u30CF\u30B2\u30BF\u30AB"
+      headcount: many
+      time: short
+      difficulty: easy
+      lucky: medium
+      communication: medium
+      card: yes
+      forBeginner: yes
+    - english: GhostBlitz
+      japanese: "\u304A\u3070\u3051\u30AD\u30E3\u30C3\u30C1"
+      headcount: many
+      time: short
+      difficulty: easy
+      lucky: skill
+      communication: individual
+      card: no
+      forBeginner: yes
+    - english: WardBasket
+      japanese: "\u30EF\u30FC\u30C9\u30D0\u30B9\u30B1\u30C3\u30C8"
+      headcount: many
+      time: short
+      difficulty: normal
+      lucky: medium
+      communication: medium
+      card: yes
+      forBeginner: yes
+    - english: Dobble
+      japanese: "\u30C9\u30D6\u30EB"
+      headcount: many
+      time: short
+      difficulty: easy
+      lucky: skill
+      communication: individual
+      card: yes
+      forBeginner: yes
+    - english: Blocks
+      japanese: "\u30D6\u30ED\u30C3\u30AF\u30B9"
+      headcount: aFew
+      time: medium
+      difficulty: easy
+      lucky: skill
+      communication: individual
+      card: no
+      forBeginner: yes
+    - english: Coloretto
+      japanese: "\u30B3\u30ED\u30EC\u30C3\u30C8"
+      headcount: many
+      time: medium
+      difficulty: normal
+      lucky: medium
+      communication: medium
+      card: yes
+      forBeginner: yes
+    - english: Coyote
+      japanese: "\u30B3\u30E8\u30FC\u30C6"
+      headcount: many
+      time: medium
+      difficulty: easy
+      lucky: skill
+      communication: medium
+      card: yes
+      forBeginner: yes
+    - english: Ojamamono
+      japanese: "\u304A\u90AA\u9B54\u8005"
+      headcount: many
+      time: medium
+      difficulty: normal
+      lucky: medium
+      communication: communicative
+      card: yes
+      forBeginner: yes
+    - english: NineBreak
+      japanese: "\u30CA\u30A4\u30F3\u30D6\u30EC\u30A4\u30AF"
+      headcount: aFew
+      time: short
+      difficulty: easy
+      lucky: skill
+      communication: individual
+      card: no
+      forBeginner: yes
+    - english: Coup
+      japanese: "\u30AF\u30FC"
+      headcount: many
+      time: short
+      difficulty: normal
+      lucky: medium
+      communication: medium
+      card: yes
+      forBeginner: no
+    - english: LoveLetter
+      japanese: "\u30E9\u30D6\u30EC\u30BF\u30FC"
+      headcount: aFew
+      time: short
+      difficulty: normal
+      lucky: medium
+      communication: medium
+      card: yes
+      forBeginner: yes
+    - english: NewLostLegacy
+      japanese: "\u30CB\u30E5\u30FC\u30ED\u30B9\u30C8\u30EC\u30AC\u30B7\u30FC"
+      headcount: aFew
+      time: short
+      difficulty: normal
+      lucky: medium
+      communication: medium
+      card: yes
+      forBeginner: no
+    - english: TurfWar
+      japanese: TURF WAR
+      headcount: aFew
+      time: short
+      difficulty: normal
+      lucky: skill
+      communication: individual
+      card: yes
+      forBeginner: no
+    - english: NotMyFault
+      japanese: NOT MY FAULT
+      headcount: many
+      time: short
+      difficulty: normal
+      lucky: medium
+      communication: communicative
+      card: yes
+      forBeginner: no
+    - english: Algo
+      japanese: "\u30A2\u30EB\u30B4"
+      headcount: aFew
+      time: short
+      difficulty: normal
+      lucky: skill
+      communication: medium
+      card: no
+      forBeginner: yes
+    - english: Domemo
+      japanese: "\u30C9\u30E1\u30E2"
+      headcount: many
+      time: short
+      difficulty: normal
+      lucky: medium
+      communication: medium
+      card: no
+      forBeginner: yes
+    - english: MahoujinNoRuleKari
+      japanese: "\u9B54\u6CD5\u9663\u306E\u30EB\u30FC\u30EB\uFF08\u4EEE\uFF09"
+      headcount: many
+      time: short
+      difficulty: hard
+      lucky: luck
+      communication: communicative
+      card: no
+      forBeginner: no
+    - english: Carcassonne
+      japanese: "\u30AB\u30EB\u30AB\u30BD\u30F3\u30CC"
+      headcount: many
+      time: long
+      difficulty: normal
+      lucky: medium
+      communication: individual
+      card: no
+      forBeginner: no
+    - english: KakerlakenPoker
+      japanese: "\u3054\u304D\u3076\u308A\u30DD\u30FC\u30AB\u30FC"
+      headcount: many
+      time: short
+      difficulty: easy
+      lucky: skill
+      communication: communicative
+      card: yes
+      forBeginner: yes
+    - english: PenguinParty
+      japanese: "\u30DA\u30F3\u30AE\u30F3\u30D1\u30FC\u30C6\u30A3\u30FC"
+      headcount: many
+      time: short
+      difficulty: easy
+      lucky: medium
+      communication: medium
+      card: yes
+      forBeginner: yes
+    - english: Catan
+      japanese: "\u30AB\u30BF\u30F3"
+      headcount: aFew
+      time: long
+      difficulty: hard
+      lucky: luck
+      communication: communicative
+      card: no
+      forBeginner: no
+    - english: DungeonOfMandom
+      japanese: "\u30C0\u30F3\u30B8\u30E7\u30F3\u30AA\u30D6\u30DE\u30F3\u30C0\u30E0"
+      headcount: aFew
+      time: short
+      difficulty: normal
+      lucky: skill
+      communication: communicative
+      card: yes
+      forBeginner: no
+    - english: HanninHaOdoru
+      japanese: "\u72AF\u4EBA\u306F\u8E0A\u308B"
+      headcount: many
+      time: short
+      difficulty: easy
+      lucky: skill
+      communication: medium
+      card: yes
+      forBeginner: yes
+    - english: Testplay
+      japanese: "\u30C6\u30B9\u30C8\u30D7\u30EC\u30A4"
+      headcount: many
+      time: short
+      difficulty: normal
+      lucky: luck
+      communication: communicative
+      card: yes
+      forBeginner: yes
+    - english: Geister
+      japanese: "\u30AC\u30A4\u30B9\u30BF\u30FC"
+      headcount: aFew
+      time: short
+      difficulty: normal
+      lucky: skill
+      communication: individual
+      card: no
+      forBeginner: yes
+    - english: OneShotKill
+      japanese: "\u30EF\u30F3\u30B7\u30E7\u30C3\u30C8\u30AD\u30EB"
+      headcount: many
+      time: short
+      difficulty: normal
+      lucky: medium
+      communication: communicative
+      card: yes
+      forBeginner: no
+    - english: OneNightJinrou
+      japanese: "\u30EF\u30F3\u30CA\u30A4\u30C8\u4EBA\u72FC"
+      headcount: many
+      time: short
+      difficulty: normal
+      lucky: medium
+      communication: communicative
+      card: yes
+      forBeginner: yes
+    - english: Pralaya
+      japanese: "\u30D7\u30E9\u30E9\u30FC\u30E4"
+      headcount: many
+      time: medium
+      difficulty: normal
+      lucky: medium
+      communication: individual
+      card: yes
+      forBeginner: no
