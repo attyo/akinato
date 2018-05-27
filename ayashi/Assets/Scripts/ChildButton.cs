@@ -4,10 +4,6 @@ using UnityEngine;
 using System.Linq;
 
 public class ChildButton : ButtonCtrl {
-
-    private List<string> boardgameList;
-    private List<string> List;
-    private IEnumerable<string> boardAnswer;
     private kutti kuttie;
 
     protected override void OnTap(string objectName)
@@ -20,32 +16,29 @@ public class ChildButton : ButtonCtrl {
     
     private void Start()
     {
-        var boardGameMasterTable = new BoardGameMasterTable();
-        boardGameMasterTable.Load();
-        foreach (var boardGameMaster in boardGameMasterTable.All)
-        {
-            Debug.Log(boardGameMaster.english);
-        }
-
         kuttie = GetComponent<kutti>();
-        boardgameList = new List<string>();
-
         kuttie.num_changed();
     }
 
     private void ChoicesButtonClick(string Clicked_button)
     {
+        // 条件を設定
+        kuttie.setQuary(Clicked_button);
+        // メニュー番号を進める
         kuttie.menu_nam++;
+        // メニュー番号によってUIを切り替える
         kuttie.num_changed();
-        Debug.Log("Choices Click");
+        //Debug.Log("Choices Click");
     }
     private void ReturnButtonClick()
     {
         if (kuttie.menu_nam > 0)
         {
+            // メニュー番号を戻す
             kuttie.menu_nam--;
+            // メニュー番号によってUIを切り替える
             kuttie.num_changed();
-            Debug.Log("もどる Click");
+            //Debug.Log("もどる Click");
         }
     }
 }

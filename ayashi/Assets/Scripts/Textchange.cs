@@ -27,6 +27,7 @@ public class Textchange : MonoBehaviour {
         {
             Debug.Log("次のシーンはボ提案フェイズ");
             //最終的におすすめするボドゲのナンバーを渡す
+            Menue.getResult();
             //bodoge_num =;
             SceneManager.LoadScene("suggest");
             Menue.menu_nam = Menue.length - 1;
