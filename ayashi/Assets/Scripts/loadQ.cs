@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 public class loadQ : MonoBehaviour {
     [SerializeField]
     private string scene;
-	// Use this for initialization
-	void Start () {
-		
+    [SerializeField]
+    private Fade fade;
+
+    // Use this for initialization
+    void Start () {
 	}
 	
 	// Update is called once per frame
@@ -17,6 +19,10 @@ public class loadQ : MonoBehaviour {
 	}
     public void Onclick()
     {
-        SceneManager.LoadScene(scene);
+        fade.FadeIn(0.5f, () =>
+        {
+            SceneManager.LoadScene(scene);
+        });
+        
     }
 }
